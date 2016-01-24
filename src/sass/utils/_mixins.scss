@@ -1,0 +1,14 @@
+///
+/// Media
+///
+/// @group utils
+/// @since 1.0
+///
+@mixin media($breakpoint, $media: 'screen') {
+
+	$query: if(type-of($breakpoint) == 'string', unquote($breakpoint), inspect($breakpoint));
+
+	@media #{$media} and #{$query} {
+		@content;
+	}
+}

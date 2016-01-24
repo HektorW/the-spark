@@ -1,12 +1,12 @@
 
-require('./polyfill');
+import './polyfill';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import TheSpark from './components/TheSpark.jsx';
+import App from './components/App.jsx';
 
 ReactDOM.render(
-	React.createElement(TheSpark),
+	React.createElement(App),
 	document.getElementById('app')
 );

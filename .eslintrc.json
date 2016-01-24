@@ -2,7 +2,8 @@
     "rules": {
         "indent": [
             2,
-            "tab"
+            "tab",
+            { "SwitchCase": 1 }
         ],
         "no-unused-vars": 1,
         "quotes": [
@@ -24,7 +25,9 @@
         "experimentalObjectRestSpread": true,
         "modules": true
     },
+    "parser": "babel-eslint",
     "plugins": [
-        "react"
+        "react",
+        "babel"
     ]
 }

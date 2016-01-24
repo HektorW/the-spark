@@ -1,5 +1,14 @@
 
 //
+// Breakpoints
+//
+$breakpoint-extra-small: '(min-width: 400px)';
+$breakpoint-small: '(min-width: 540px)';
+$breakpoint-medium: '(min-width: 768px)';
+$breakpoint-large: '(min-width: 1024px)';
+
+
+//
 // Colors
 //
 $color-aqua: #7fdbff;
@@ -17,5 +26,28 @@ $color-purple: #b10dc9;
 $color-red: #ff4136;
 $color-silver: #ddd;
 $color-teal: #39cccc;
-$color-yellow: #ffdc00;
+$color-yellow: #ebc148;
 $color-white: #fff;
+// Domain
+$color-dlbi-red: #ed1c27;
+
+
+//
+// Font dimensions
+// 
+$base-font-size: 16px;
+$base-line-height: 1;
+
+
+//
+// Layers
+//
+
+
+//
+// Layout
+//
+$layout-max-width: 1240px;
+$layout-space: 1em;
+$layout-space-medium: 1.5em;
+$layout-space-large: 2em;

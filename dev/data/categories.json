@@ -1,5 +1,5 @@
-'{
-	"challenges": [
+{
+	"challenge": [
 		"Rain",
 		"Hunger",
 		"Racism",
@@ -56,7 +56,7 @@
 		"Mobile phone",
 		"Activity wearable",
 		"Gamification",
-		"Kinect/Motion tracking",
+		"Kinect / Motion tracking",
 		"Smart watch",
 		"Smart clothing/tracking clothing",
 		"GPS",
@@ -71,7 +71,7 @@
 		"Radiation sensor",
 		"GSM"
 	],
-	"channels": [
+	"channel": [
 		"Stamps",
 		"TV",
 		"Billboard",
@@ -89,7 +89,7 @@
 		"Instagram",
 		"Seminar"
 	],
-	"Clients": [
+	"client": [
 		"Volvo",
 		"Electrolux",
 		"Husqvarna",

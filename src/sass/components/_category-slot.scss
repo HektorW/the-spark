@@ -1,0 +1,18 @@
+//
+// Category slot
+// @group components
+//
+.category-slot {
+	margin: $layout-space 0;
+	width: 90%;
+
+	&__title {
+		font-weight: 100;
+		margin: 0;
+		text-transform: capitalize;
+	}
+
+	&__value {
+		font-size: 3em;
+	}
+}

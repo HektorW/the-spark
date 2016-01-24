@@ -4,6 +4,7 @@
 // Utils
 //
 @import
+	'utils/mixins',
 	'utils/variables';
 
 
@@ -12,3 +13,11 @@
 //
 @import
 	'base/base';
+
+
+//
+// Components
+//
+@import
+	'components/category-slot',
+	'components/the-spark';
