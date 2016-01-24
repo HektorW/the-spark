@@ -32,6 +32,7 @@ gulp.task('sass', () => {
 		.pipe(connect.reload());
 });
 gulp.task('sass:watch', () => {
+	gulp.start('sass');
 	gulp.watch(`${src}/sass/**/*.scss`, ['sass']);
 });
 
@@ -84,4 +85,8 @@ gulp.task('connect', () => {
 //
 // Tasks
 //
-gulp.task('server', ['connect', 'browserify', 'sass:watch']);
+gulp.task('server', [
+	'connect',
+	'browserify',
+	'sass:watch'
+]);
